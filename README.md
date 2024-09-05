@@ -16,4 +16,7 @@ Tip: Krijg je nog steeds een standaard Laragon pagina te zien, druk in Laragon l
 
 # ERD
 De _schuingedrukte_ velden zijn `nullable` omdat ze later vanuit de RDW API opgehaald kunnen worden.
-![ERD](ERD.png)
+![ERD](ERD.png) 
+
+# Brave Browser
+Brave blokkeert de functionaliteit van vite die nodig is om de front-end code te laden. Ga in brave naar de adresbalk en vul `brave://settings/shields/filters` in en ga naar de optie "Aangepaste filters maken". Voeg de volgende lijn toe aan het lijstje: `@@||[::1]^$domain=~^.*\.test`. Druk dan onderin op de knop "Wijzigingen opslaan."
